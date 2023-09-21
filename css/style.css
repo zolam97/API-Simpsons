@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/homer-simpson-revised');
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Transforma 10px a 1rem */
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+                
+
+body {
+    background: linear-gradient(#f7d547,#ffff72);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-collapse: collapse;
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.contenedor{
+    height: 90rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-size: 8rem;
+}
+
+.personaje h3{
+    font-size: 5rem;
+}
+
+.personaje img{
+    height: 30rem;
+}
+
+.personaje p{
+    font-size: 3rem;
+}
+
+.contenedor button{
+    font-size: 3rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    cursor:pointer;
+    transition-duration: 0.2s;
+}
+
+.contenedor button:hover{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    cursor:pointer;
+}
